@@ -2,6 +2,7 @@ package de.timo_heise.timos_test_mod;
 
 import com.mojang.logging.LogUtils;
 
+import de.timo_heise.timos_test_mod.block.ModBlocks;
 import de.timo_heise.timos_test_mod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -61,6 +62,7 @@ public class TestMod
             .displayItems((parameters, output) -> {
                 output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
                 output.accept(ModItems.URAN_INGOT.get());
+                output.accept(ModBlocks.URAN_BLOCK.get());
             }).build());
 
     public TestMod(FMLJavaModLoadingContext context)
@@ -78,6 +80,7 @@ public class TestMod
         CREATIVE_MODE_TABS.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
