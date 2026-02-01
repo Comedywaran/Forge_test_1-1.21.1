@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "timos_test_mod:item/uran_ingot"
+    }
+}
