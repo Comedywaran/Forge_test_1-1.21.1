@@ -7,11 +7,11 @@
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
       "projectName": "test_1-1.21.1",
-      "cwd": "${workspaceFolder}\\run",
-      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Dforge.enabledGameTestNamespaces\u003dtimos_test_mod -Dforge.enableGameTest\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem -XX:HeapDumpPath\u003dMojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump",
-      "args": "--launchTarget forge_userdev_client --version MOD_DEV --assetIndex 17 --assetsDir C:\\Users\\Timo\\.gradle\\caches\\forge_gradle\\assets --gameDir .",
+      "cwd": "${workspaceFolder}/run",
+      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Dforge.enabledGameTestNamespaces\u003dtimos_test_mod -Dforge.enableGameTest\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem -XstartOnFirstThread -Xss1M",
+      "args": "--launchTarget forge_userdev_client --version MOD_DEV --assetIndex 17 --assetsDir /Users/timo/.gradle/caches/forge_gradle/assets --gameDir .",
       "env": {
-        "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",
+        "MOD_CLASSES": "${workspaceFolder}/build/sourcesSets/main",
         "MCP_MAPPINGS": "parchment_2024.11.17-1.21.1"
       },
       "preLaunchTask": "prepareRunClientCompile"
@@ -22,11 +22,11 @@
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
       "projectName": "test_1-1.21.1",
-      "cwd": "${workspaceFolder}\\run-data",
+      "cwd": "${workspaceFolder}/run-data",
       "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Djava.net.preferIPv6Addresses\u003dsystem",
-      "args": "--launchTarget forge_userdev_data --assetIndex 17 --assetsDir C:\\Users\\Timo\\.gradle\\caches\\forge_gradle\\assets --gameDir . --mod timos_test_mod --all --output C:\\Users\\Timo\\Documents\\Modding\\test_1-1.21.1\\src\\generated\\resources --existing C:\\Users\\Timo\\Documents\\Modding\\test_1-1.21.1\\src\\main\\resources",
+      "args": "--launchTarget forge_userdev_data --assetIndex 17 --assetsDir /Users/timo/.gradle/caches/forge_gradle/assets --gameDir . --mod timos_test_mod --all --output \"/Users/timo/Desktop/Modding/MC Modding Test/test_1-1.21.1/src/generated/resources\" --existing \"/Users/timo/Desktop/Modding/MC Modding Test/test_1-1.21.1/src/main/resources\"",
       "env": {
-        "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",
+        "MOD_CLASSES": "${workspaceFolder}/build/sourcesSets/main",
         "MCP_MAPPINGS": "parchment_2024.11.17-1.21.1"
       },
       "preLaunchTask": "prepareRunDataCompile"
@@ -37,11 +37,11 @@
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
       "projectName": "test_1-1.21.1",
-      "cwd": "${workspaceFolder}\\run",
+      "cwd": "${workspaceFolder}/run",
       "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Dforge.enabledGameTestNamespaces\u003dtimos_test_mod -Djava.net.preferIPv6Addresses\u003dsystem",
       "args": "--launchTarget forge_userdev_server_gametest --gameDir .",
       "env": {
-        "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",
+        "MOD_CLASSES": "${workspaceFolder}/build/sourcesSets/main",
         "MCP_MAPPINGS": "parchment_2024.11.17-1.21.1"
       },
       "preLaunchTask": "prepareRunGameTestServerCompile"
@@ -52,11 +52,11 @@
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
       "projectName": "test_1-1.21.1",
-      "cwd": "${workspaceFolder}\\run",
+      "cwd": "${workspaceFolder}/run",
       "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Dforge.enabledGameTestNamespaces\u003dtimos_test_mod -Dforge.enableGameTest\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem",
       "args": "--launchTarget forge_userdev_server --gameDir . --nogui",
       "env": {
-        "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",
+        "MOD_CLASSES": "${workspaceFolder}/build/sourcesSets/main",
         "MCP_MAPPINGS": "parchment_2024.11.17-1.21.1"
       },
       "preLaunchTask": "prepareRunServerCompile"

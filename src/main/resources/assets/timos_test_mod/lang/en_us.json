@@ -1,4 +1,6 @@
 {
     "item.timos_test_mod.uran_ingot": "Uran Ingot",
-    "block.timos_test_mod.uran_block": "Uran Block"
+    "block.timos_test_mod.uran_block": "Uran Block",
+
+    "item_group.timos_test_mod.uran_tab": "Uran Tab"
 }
