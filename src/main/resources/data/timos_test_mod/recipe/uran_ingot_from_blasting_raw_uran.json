@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "uran_ingot",
+  "ingredient": {
+    "item": "timos_test_mod:raw_uran"
+  },
+  "result": {
+    "id": "timos_test_mod:uran_ingot"
+  }
+}

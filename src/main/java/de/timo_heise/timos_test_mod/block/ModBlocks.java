@@ -22,7 +22,20 @@ public class ModBlocks {
     .sound(SoundType.METAL)
     .requiresCorrectToolForDrops()));
     
+    public static final RegistryObject<Block> RAW_URAN_BLOCK = registerBlock("raw_uran_block", () -> new Block(Block.Properties.of()
+    .mapColor(net.minecraft.world.level.material.MapColor.METAL)
+    .strength(4f)
+    .sound(SoundType.METAL)
+    .requiresCorrectToolForDrops()));
     
+    public static final RegistryObject<Block> URAN_ORE = registerBlock("uran_ore", () -> new Block(Block.Properties.of()
+    .strength(4f)
+    .requiresCorrectToolForDrops()));
+    
+    public static final RegistryObject<Block> DEEPSLATE_URAN_ORE = registerBlock("deepslate_uran_ore", () -> new Block(Block.Properties.of()
+    .strength(4f)
+    .requiresCorrectToolForDrops()));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

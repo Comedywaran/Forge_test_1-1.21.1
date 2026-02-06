@@ -19,7 +19,11 @@ public class ModCreativeModeTabs {
             .title(Component.translatable("item_group." + TestMod.MODID + ".uran_tab"))
             .displayItems((parameters, output) -> {
                 output.accept(ModItems.URAN_INGOT.get());
+                output.accept(ModItems.RAW_URAN.get());
                 output.accept(ModBlocks.URAN_BLOCK.get());
+                output.accept(ModBlocks.RAW_URAN_BLOCK.get());
+                output.accept(ModBlocks.URAN_ORE.get());
+                output.accept(ModBlocks.DEEPSLATE_URAN_ORE.get());
             }).build());
 
     public static void register(IEventBus eventBus) {

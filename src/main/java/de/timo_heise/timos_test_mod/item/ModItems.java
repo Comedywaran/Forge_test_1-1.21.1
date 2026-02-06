@@ -16,6 +16,8 @@ public class ModItems {
     .saturationModifier(4096f)
     .build())));
 
+    public static final RegistryObject<Item> RAW_URAN = ITEMS.register("raw_uran", () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
